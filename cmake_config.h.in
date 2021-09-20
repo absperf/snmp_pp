@@ -1,0 +1,244 @@
+/*_############################################################################
+  _## 
+  _##  cmake_config.h.in  
+  _##
+  _##  SNMP++ v3.4
+  _##  -----------------------------------------------
+  _##  Copyright (c) 2001-2021 Jochen Katz, Frank Fock
+  _##
+  _##  This software is based on SNMP++2.6 from Hewlett Packard:
+  _##  
+  _##    Copyright (c) 1996
+  _##    Hewlett-Packard Company
+  _##  
+  _##  ATTENTION: USE OF THIS SOFTWARE IS SUBJECT TO THE FOLLOWING TERMS.
+  _##  Permission to use, copy, modify, distribute and/or sell this software 
+  _##  and/or its documentation is hereby granted without fee. User agrees 
+  _##  to display the above copyright notice and this license notice in all 
+  _##  copies of the software and any documentation of the software. User 
+  _##  agrees to assume all liability for the use of the software; 
+  _##  Hewlett-Packard, Frank Fock, and Jochen Katz make no representations 
+  _##  about the suitability of this software for any purpose. It is provided 
+  _##  "AS-IS" without warranty of any kind, either express or implied. User 
+  _##  hereby grants a royalty-free license to any and all derivatives based
+  _##  upon this software code base. 
+  _##  
+  _##########################################################################*/
+/* Define if you want the debug output support compiled in. */
+#cmakedefine DEBUG
+
+/* Defines default log profile to use */
+#cmakedefine DEFAULT_LOG_PROFILE "@DEFAULT_LOG_PROFILE@"
+
+/* Define to 1 if you have the `clock_gettime' function. */
+#cmakedefine HAVE_CLOCK_GETTIME
+
+/* Define if getaddrinfo is there */
+#cmakedefine HAVE_GETADDRINFO
+
+/* Define to 1 if you have the `gethostbyaddr' function. */
+#cmakedefine HAVE_GETHOSTBYADDR
+
+/* Define to 1 if you have the `gethostbyaddr_r' function. */
+#cmakedefine HAVE_GETHOSTBYADDR_R
+
+/* Define to 1 if you have the `gethostbyname' function. */
+#cmakedefine HAVE_GETHOSTBYNAME
+
+/* Define to 1 if you have the `gethostbyname2' function. */
+#cmakedefine HAVE_GETHOSTBYNAME2
+
+/* Define to 1 if you have the `gethostbyname_r' function. */
+#cmakedefine HAVE_GETHOSTBYNAME_R
+
+/* Define to 1 if you have the `gethostname' function. */
+#cmakedefine HAVE_GETHOSTNAME
+
+/* Define to 1 if you have the `getpid' function. */
+#cmakedefine HAVE_GETPID
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#cmakedefine HAVE_GETTIMEOFDAY
+
+/* Define to 1 if you have the `htonl' function. */
+#cmakedefine HAVE_HTONL
+
+/* Define to 1 if you have the `inet_aton' function. */
+#cmakedefine HAVE_INET_ATON
+
+/* Define to 1 if you have the `inet_ntoa' function. */
+#cmakedefine HAVE_INET_NTOA
+
+/* Define to 1 if you have the `inet_ntop' function. */
+#cmakedefine HAVE_INET_NTOP
+
+/* Define to 1 if you have the `inet_pton' function. */
+#cmakedefine HAVE_INET_PTON
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#cmakedefine HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <io.h> header file. */
+#cmakedefine HAVE_IO_H
+
+/* Define to 1 if you have the `isdigit' function. */
+#cmakedefine HAVE_ISDIGIT
+
+/* Define when libdes.h shall be favored over des.h */
+#cmakedefine HAVE_LIBDES_H
+
+/* Define to 1 if you have the <limits.h> header file. */
+#cmakedefine HAVE_LIMITS_H
+
+/* Define to 1 if you have the `localtime_r' function. */
+#cmakedefine HAVE_LOCALTIME_R
+
+/* Define to 1 if you have the `malloc' function. */
+#cmakedefine HAVE_MALLOC
+
+/* Define to 1 if you have the <memory.h> header file. */
+#cmakedefine HAVE_MEMORY_H
+
+/* Define to 1 if you have the `memset' function. */
+#cmakedefine HAVE_MEMSET
+
+/* Define to 1 if you have the <netdb.h> header file. */
+#cmakedefine HAVE_NETDB_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#cmakedefine HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the `poll' function. */
+#cmakedefine HAVE_POLL
+
+/* Define to 1 if you have the <poll.h> header file. */
+#cmakedefine HAVE_POLL_H
+
+/* Define to 1 if you have the <process.h> header file. */
+#cmakedefine HAVE_PROCESS_H
+
+/* Define if you have POSIX threads libraries and header files. */
+#cmakedefine HAVE_PTHREAD @HAVE_PTHREAD@
+
+/* Define to 1 if you have the `realloc' function. */
+#cmakedefine HAVE_REALLOC
+
+/* Define to 1 if you have the `select' function. */
+#cmakedefine HAVE_SELECT
+
+/* Define to 1 if you have the <signal.h> header file. */
+#cmakedefine HAVE_SIGNAL_H
+
+/* Define to 1 if you have the `socket' function. */
+#cmakedefine HAVE_SOCKET
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#cmakedefine HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#cmakedefine HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#cmakedefine HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strcasecmp' function. */
+#cmakedefine HAVE_STRCASECMP
+
+/* Define to 1 if you have the `strchr' function. */
+#cmakedefine HAVE_STRCHR
+
+/* Define to 1 if you have the `strerror' function. */
+#cmakedefine HAVE_STRERROR
+
+/* Define to 1 if you have the `stricmp' function. */
+#cmakedefine HAVE_STRICMP
+
+/* Define to 1 if you have the <strings.h> header file. */
+#cmakedefine HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#cmakedefine HAVE_STRING_H
+
+/* Define to 1 if you have the `strstr' function. */
+#cmakedefine HAVE_STRSTR
+
+/* Define to 1 if you have the <sys/param.h> header file. */
+#cmakedefine HAVE_SYS_PARAM_H
+
+/* Define to 1 if you have the <sys/select.h> header file. */
+#cmakedefine HAVE_SYS_SELECT_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#cmakedefine HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#cmakedefine HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/timeb.h> header file. */
+#cmakedefine HAVE_SYS_TIMEB_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#cmakedefine HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#cmakedefine HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/unistd.h> header file. */
+#cmakedefine HAVE_SYS_UNISTD_H
+
+/* Define to 1 if you have the <time.h> header file. */
+#cmakedefine HAVE_TIME_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#cmakedefine HAVE_UNISTD_H
+
+/* Define to 1 if you have the <winsock2.h> header file. */
+#cmakedefine HAVE_WINSOCK2_H
+
+/* Define to 1 if you have the <winsock.h> header file. */
+#cmakedefine HAVE_WINSOCK_H
+
+/* Define to 1 if you have the <ws2tcpip.h> header file. */
+#cmakedefine HAVE_WS2TCPIP_H
+
+/* Define to 1 if you have the <wspiapi.h> header file. */
+#cmakedefine HAVE_WSPIAPI_H
+
+/* Define to 1 if you have the `_getpid' function. */
+#cmakedefine HAVE__GETPID
+
+/* define SNMP_PP_IPv6 if you want to use IPv6 */
+#cmakedefine SNMP_PP_IPv6 @SNMP_PP_IPv6@
+
+/* Define to 1 if you have the ANSI C header files. */
+#cmakedefine STDC_HEADERS
+
+/* Define if ISO C++ 1998 header files are present. */
+#cmakedefine STDCXX_98_HEADERS
+
+/* Version number of package */
+#define VERSION "@VERSION@"
+
+/* define _NO_SNMPv3 if you do not want to use SNMPv3 */
+#cmakedefine _NO_SNMPv3
+
+/* define _SNMPv3 if you want to use SNMPv3 */
+#cmakedefine _SNMPv3 @_SNMPv3@
+
+/* Define to necessary symbol if this constant uses a non-standard name on
+   your system. */
+#cmakedefine PTHREAD_CREATE_JOINABLE
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#cmakedefine inline
+#define inline ${INLINE_KEYWORD}
+#endif
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#cmakedefine size_t ${size_t}
+
+/* _XOPEN_SOURCE $HAVE_XOPEN_SOURCE */
+#cmakedefine HAVE_XOPEN_SOURCE
+
